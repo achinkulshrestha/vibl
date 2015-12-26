@@ -1,0 +1,28 @@
+.panelBody {
+  background: url(../img/panel_bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.centered {
+  position: fixed; /* or absolute */
+  left: 50%;
+}
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+
+.intro-text{
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+table { table-layout: fixed; }
+td { width: 33%; }

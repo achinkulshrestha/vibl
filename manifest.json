@@ -1,0 +1,25 @@
+{
+    "name": "Vibl",
+    "version": "0.1",
+    "description": "Feedback tool to build accessible apps",
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "38": "img/logo.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "options_page": "panel.html",
+    "content_security_policy": "script-src 'self'  'unsafe-eval'; object-src 'self'",
+    "manifest_version": 2
+}

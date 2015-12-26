@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<meta name="description" content="Project Abl - Accessibility feedback tool for Web developers and designers">
+		<meta name="author" content="Achin Kulshrestha">
+
+		<title>Project Abl - Improving accessibility of web apps for the blind and visually impaired</title>
+
+		<!-- Scripts -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/Chart.min.js"></script>
+		<script src="popup.js"></script>
+
+		<!-- Cascading Style Sheets -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/custom.css" rel="stylesheet" media="screen">
+	</head>
+
+	<body class="popupBody">
+
+		<nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+				&nbsp;
+				<img src="img/logo.png" class="img-responsive" alt="Cinque Terre"  style="display:inline;" width="60" height="40">
+				&nbsp;&nbsp;&nbsp;
+				<h5 style="display:inline;" class="text-muted"><em> Hi there! I am the make your application "Accessible" toolkit. </em></h5>
+			</div>
+
+		</nav>
+
+		<div class="container">
+			<div>
+				<h3><strong>Today's Guideline</strong></h3>
+				<blockquote>
+					<p>Use Aria-Invalid to Indicate An Error Field. <a href="http://eyeccc.github.io/Web_accessibility/Guideline_page.html#aria21" target="_blank">ARIA_21</a></p>
+				</blockquote>
+
+			</div>
+
+				<h3 style="display:inline;"><strong>The Accessibility Meter</strong></h3>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="img/meter.png" style="display:inline;"  width="70" height="60">
+
+			<div>
+				<p>Let's match you against other folks who share the same goal :), refresh rate is 24hrs</p>
+			</div>
+				<strong>You had missed some rules last time! :/</strong>
+				<p class="text-danger">How many people got right what you got wrong!</p>
+
+						<canvas id="myChartFail" width="300" height="200"></canvas>
+					</br>
+				<strong>However, you nailed these rules in your last run! :D </strong>
+				<p class="text-success">How many people are as awesome as you are!</p>
+
+						<canvas id="myChartPass" width="300" height="200"></canvas>
+
+				</div>
+	</body>
+</html>
